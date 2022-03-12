@@ -11,6 +11,8 @@ EXCEL automations can reach a level of complexity that is little known to the ge
 
 # tini.exe or tini.executable
 
+Antivirus engines that lack any sophistication or professionalism may popup up false detections in connection to <kbd>tini.exe</kbd>. However, the VB6 source code of <kbd>tine.exe</kbd> is available in the <kbd>tini</kbd> folder and it can be compiled at will. An MD5 comparison of the newly compiled file and the old file uploaded here verifies that <kbd>tini.exe</kbd> is NOT malware. As one can see in the source code of <kbd>tini.exe</kbd>, the application is completely empty and contains a simple window with the message:
+
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/hex.png?raw=true" alt="tini.exe">
 
 ```
@@ -18,7 +20,7 @@ MD5 File Checksum: f0b950acbf1af90eb8e9a52cc6799a08
 SHA512 File Hash:  9a5c1e2cb40b1a0777e9975c52fdc6798b27e30a11090da6107a63b265220caa53d7301c10920d91033c05233bd25c65c216a1ca274eb98e429c63de453ec394
 ```
 
-Note that tini.exe is small (16Kb) and it is used for getting a smaller VBA source code for exemplification. However, you can use any executable file. Moreover, this method can embed any type of file inside EXCEL.
+Note that tini.exe is a small file (16Kb) and it is used here for providing an exemplification by using smaller VBA source code. However, one may use any executable file. Moreover, this method can embed any type of file inside EXCEL, not only executables.
 
 
 # The EXCEL .xlsm file
