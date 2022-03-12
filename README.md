@@ -19,7 +19,7 @@ MD5 File Checksum: f0b950acbf1af90eb8e9a52cc6799a08
 SHA512 File Hash:  9a5c1e2cb40b1a0777e9975c52fdc6798b27e30a11090da6107a63b265220caa53d7301c10920d91033c05233bd25c65c216a1ca274eb98e429c63de453ec394
 ```
 
-Note that tini.exe is small (16Kb) and it is used for getting a smaller VBA source code for exemplification. However, you can use ani executable file. Moreover, this method can embed any type of file inside EXCEL.
+Note that tini.exe is small (16Kb) and it is used for getting a smaller VBA source code for exemplification. However, you can use any executable file. Moreover, this method can embed any type of file inside EXCEL.
 
 
 # The EXCEL .xlsm file
