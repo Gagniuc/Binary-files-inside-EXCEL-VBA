@@ -33,6 +33,10 @@ Once you press the button on the left, EXCEL will execute the VBA source code fr
 
 Press Alt+F11 to see the VBA source code of this EXCEL file.
 
+
+This is what the application produces:
+
+
 ```vba
 Sub Main()
 
