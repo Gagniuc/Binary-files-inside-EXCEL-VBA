@@ -15,7 +15,7 @@ Antivirus engines that lack sophistication or professionalism may popup up false
 
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/hex.png?raw=true" alt="tini.exe">
 
-These signatures are expected from the file you are compiling and from the <kbd>tini.exe</kbd> files (aka <kbd>tini.executable</kbd>) already compiled and uploaded here:
+The following signatures are expected from the file you are compiling or from the <kbd>tini.exe</kbd> files (aka <kbd>tini.executable</kbd>) already compiled and uploaded here:
 
 ```
 MD5 File Checksum: f0b950acbf1af90eb8e9a52cc6799a08
