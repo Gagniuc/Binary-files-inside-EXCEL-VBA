@@ -1,11 +1,12 @@
-# Binary-files-inside-EXCEL-VBA
+# Binary files inside EXCEL VBA
 
-This application converts any executable file (<kbd>.exe</kbd> or any type of file in fact) to VBA source code that can be included as a module in an EXCEL file. Once inserted into the EXCEL file, the VBA code can be used to completely restore the executable file to disk in the same directory as the EXCEL file. Also, once recomposed on disk, the executable file can be executed automatically. Use the EXCEL file in the "test" directory for testing. Press ALT + F11 to open the VBA window so you can see the code being discussed.
+This application converts any executable file (<kbd>.exe</kbd> or any type of file in fact) to VBA source code that can be included as a module in an EXCEL file. Once inserted into the EXCEL file, the VBA code can be used to completely restore the executable file to disk in the same directory as the EXCEL file. Obviously, a different path can also be used. Also, once recomposed on disk, the executable file can be executed automatically. Use the EXCEL file in the "test" directory for testing. Press ALT + F11 to open the VBA window so you can see the code being discussed.
 
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/scr.png?raw=true" alt="">
 
 # Why is this important?
 
+EXCEL automations can reach a level of complexity that is little known to the general public. However, people in companies that deal specifically with automating reporting processes, for example, know that VBA is the most advanced and refined technology for these kind of issues. For advanced automatizations, there are situations in which hibid approaches are the path forward. Such hibrid projects may include Excel and an application compiled in a certain programming language. Thus Excel may be able to take the executable and the dependencies of the new application inside the .xlsm file in order to install them automatically on other computers. It is even more important when the end user of these Excel applications are our colleagues that are not proficient in automatization and/or programming languages. This method also is able to allow Excel to instal different file dependencies on other computers, like images, ico and so on.
 
 
 # tini.exe or tini.executable
