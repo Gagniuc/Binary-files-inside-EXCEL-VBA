@@ -31,11 +31,7 @@ The EXCEL window for test.xlsm is shown below. Once you press the button on the 
 
 <kbd><img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/excel.png?raw=true" alt="Excel"></kbd>
 
-Press Alt+F11 to see the VBA source code of this EXCEL file.
-
-
-This is what the application produces:
-
+The following VBA source code can be seen once the Alt + F11 keys are pressed on the EXCEL window:
 
 ```vba
 Sub Main()
