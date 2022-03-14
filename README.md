@@ -4,6 +4,8 @@ This VB6 application converts any executable file (ie. <kbd>.exe</kbd> or any ty
 
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/scr.png?raw=true" alt="">
 
+<b>Note</b>: This application is suitable for files under 1Mb, such as small binaries, small images, .dll files, .ocx files, small sound files, ico files, .docx files, excel files, powerpoint files and so on.
+
 # Why is this important?
 
 EXCEL automations can reach a level of complexity that is little known to the general public. However, people in companies that deal specifically with automating reporting processes, for example, know that VBA is the most advanced and refined technology for these kind of issues. For advanced automatizations, there are situations in which hybrid approaches are the path forward. Such hybrid projects may include Excel and an application compiled in a certain programming language. Thus Excel may be able to take the executable and the dependencies of the new application inside the .xlsm file in order to install them automatically on other computers. It is even more important when the end user of these Excel applications are our colleagues that are not proficient in automatization and/or programming languages. This method also is able to allow Excel to instal different file dependencies on other computers, like images, ico and so on.
