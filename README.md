@@ -4,7 +4,7 @@ This VB6 application converts any executable file (ie. <kbd>.exe</kbd> or any ty
 
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/scr.png?raw=true" alt="">
 
-<b>Note</b>: The <i>Binary files inside EXCEL VBA</i> application is appropriate for embedding files with sizes under 1Mb, such as small binaries, small images, .dll files, .ocx files, small sound files, .ico files, .docx files, excel files, powerpoint files and so on.
+<b>Note</b>: <i>Binary files inside EXCEL VBA</i> is appropriate for embedding files with sizes under 1Mb, such as small binaries, small images, .dll files, .ocx files, small sound files, .ico files, .docx files, excel files, powerpoint files and so on.
 
 # Why is this important?
 
