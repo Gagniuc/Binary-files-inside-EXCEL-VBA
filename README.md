@@ -10,7 +10,6 @@ This VB6 application converts any executable file (ie. <kbd>.exe</kbd> or any ty
 
 EXCEL automations can reach a level of complexity that is little known to the general public. However, people in companies that deal specifically with automating reporting processes, for example, know that VBA is the most advanced and refined technology for these kind of issues. For advanced automatizations, there are situations in which hybrid approaches are the path forward. Such hybrid projects may include Excel and an application compiled in a certain programming language. Thus Excel may be able to take the executable and the dependencies of the new application inside the .xlsm file in order to install them automatically on other computers. It is even more important when the end user of these Excel applications are our colleagues that are not proficient in automatization and/or programming languages. This method also is able to allow Excel to instal different file dependencies on other computers, like images, ico and so on.
 
-
 # tini.exe or tini.executable
 
 Some antivirus engines that lack sophistication or professionalism may popup up false detections in connection to <kbd>tini.exe</kbd>. It is true that the method shown here has been used in the malware world countless times to hide executable files. However, this method proves to be extremely useful for virtuous purposes, such as software automation. Thus, coding methods should not be used as signatures for detection by antivirus engines. Otherwise, this would be similar to: "<i>we no longer use uranium in nuclear power plants because atomic bombs can be made with it</i>". Nonetheless, the VB6 source code of <kbd>tine.exe</kbd> is available in the <kbd>tini</kbd> folder and it can be compiled at will. An MD5 comparison of the newly compiled file and the old file uploaded here verifies that <kbd>tini.exe</kbd> is NOT malware. As one can see in the source code of <kbd>tini.exe</kbd>, the application is completely empty and contains a simple window with the message:
@@ -25,7 +24,6 @@ SHA512 File Hash:  9a5c1e2cb40b1a0777e9975c52fdc6798b27e30a11090da6107a63b265220
 ```
 
 Note that tini.exe is a small file (16Kb) and it is used here for providing an exemplification by using smaller VBA source code. However, one may use any executable file. Moreover, this method can embed any type of file inside EXCEL, not only executables.
-
 
 # The EXCEL .xlsm file
 
@@ -527,5 +525,4 @@ Sub Main()
 
 End Sub
 ```
-
 
