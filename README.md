@@ -1,5 +1,13 @@
 # Binary files inside EXCEL VBA
 
+
+Often even excel has limitations, especially VBA. To overcome these shortcomings, a communication between an independent application and the excel application is an artifice that can save many automations. For example, faster processing can be done by injecting data using VBA into an external application after which the result can be returned to Excel VBA for further processing. Or, maybe we want to execute a VBA function inside EXCEL at regular time intervals.
+
+Now the problem arises: what if this .xlsx file (VBA Excel file) needs to be used by a large mass of analysts inside a company? analysts who don't know much about software programming and automation. What do we do? Well, we can't bother them with all the technical details on where different files should pe put in or how the application works. If we do, they will simply reject your automatisation. On the other hand no programmer will wish to explain the "how to" for 1000-3000 individuals.
+
+The best solution is to give them one EXCEL file like they are used to. This implies that the external application (exe file) must somehow be in the same excel file.
+
+
 This VB6 application converts any executable file (ie. <kbd>.exe</kbd> or any type of file in fact) to VBA source code which can be included as a <kbd>.bas</kbd> module in an EXCEL file. Once inserted into the EXCEL file, the VBA source code can be used to completely restore the executable file to disk in the same directory as the EXCEL file. Obviously, a different path can also be used. Also, once recomposed on disk, the executable file can be executed automatically by using VBA. Please use the EXCEL file in the <kbd>test</kbd> directory for testing. Press ALT + F11 to open the VBA window so you can see the code being discussed.
 
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/scr.png?raw=true" alt="">
