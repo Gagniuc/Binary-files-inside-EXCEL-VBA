@@ -1,15 +1,5 @@
 # Binary files inside EXCEL VBA
 
-
-As advanced as it is, often even VBA excel has limitations. To overcome these shortcomings, a communication between an independent application and the excel application is an artifice that can save many automations. For example, faster processing can be done by injecting data using VBA into an external application after which the result can be returned to Excel VBA for further processing. Or, maybe we want to execute a VBA function inside EXCEL at regular time intervals.
-
-Now the problem arises: what if this .xlsx file (VBA Excel file) needs to be used by a large mass of analysts inside a company? analysts who don't know much about software programming and automation. What do we do? Well, we can't bother them with all the technical details on where different files should pe put in or how the application works. If we do, they will simply reject your automatisation. On the other hand no programmer will wish to explain the "how to" for 1000-3000 individuals.
-
-The best solution is to give them one EXCEL file like they are used to. This implies that the external application (exe file) must somehow be in the same excel file.
-
-Thus, this application from below converts any executable file to VBA source code that can be included as a '.bas' module in an EXCEL file. Once inserted into the EXCEL file, the VBA code can be used to completely restore the executable file to disk in the same directory as the EXCEL file. Also, once recomposed on disk, the executable file can be executed automatically. Use the EXCEL file in the "test" directory for experimentation.
-
-
 This VB6 application converts any executable file (ie. <kbd>.exe</kbd> or any type of file in fact) to VBA source code which can be included as a <kbd>.bas</kbd> module in an EXCEL file. Once inserted into the EXCEL file, the VBA source code can be used to completely restore the executable file to disk in the same directory as the EXCEL file. Obviously, a different path can also be used. Also, once recomposed on disk, the executable file can be executed automatically by using VBA. Please use the EXCEL file in the <kbd>test</kbd> directory for testing. Press ALT + F11 to open the VBA window so you can see the code being discussed.
 
 <img src="https://github.com/Gagniuc/Binary-files-inside-EXCEL-VBA/blob/main/img/scr.png?raw=true" alt="">
@@ -19,6 +9,10 @@ This VB6 application converts any executable file (ie. <kbd>.exe</kbd> or any ty
 # Why is this important?
 
 EXCEL automations can reach a level of complexity that is little known to the general public. However, people in companies that deal specifically with automating reporting processes, for example, know that VBA is the most advanced and refined technology for these kind of issues. For advanced automatizations, there are situations in which hybrid approaches are the path forward. Such hybrid projects may include Excel and an application compiled in a certain programming language. Thus Excel may be able to take the executable and the dependencies of the new application inside the .xlsm file in order to install them automatically on other computers. It is even more important when the end user of these Excel applications are our colleagues that are not proficient in automatization and/or programming languages. This method also is able to allow Excel to instal different file dependencies on other computers, like images, ico and so on.
+
+# Discussions
+
+As advanced as it is, often even VBA excel has limitations. To overcome these shortcomings, a communication between an independent application and the excel application is an artifice that can save many automations. For example, faster processing can be done by injecting data using VBA into an external application after which the result can be returned to Excel VBA for further processing. Or, maybe we want to execute a VBA function inside EXCEL at regular time intervals. Now the problem arises: what if this .xlsx file (VBA Excel file) needs to be used by a large mass of analysts inside a company? analysts who don't know much about software programming and automation. What do we do? Well, we can't bother them with all the technical details on where different files should pe put in or how the application works. If we do, they will simply reject your automatisation. On the other hand no programmer may wish to explain the "how to" for let's say 1000-3000 individuals, it is not feasible (i.e. resistance to new things, different training backgrounds, and so on). The best solution is to give them one EXCEL file like they are used to. This implies that the external application (exe file) must somehow be in the same excel file. Thus, this application from below converts any executable file to VBA source code that can be included as a '.bas' module in an EXCEL file. Once inserted into the EXCEL file, the VBA code can be used to completely restore the executable file to disk in the same directory as the EXCEL file. Also, once recomposed on disk, the executable file can be executed automatically. Use the EXCEL file in the "test" directory for experimentation.
 
 # tini.exe or tini.executable
 
